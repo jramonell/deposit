@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
+        float cantidad = 0;
 
-        operativa_cuenta(null);
+        operativa_cuenta(cantidad);
     }
 
     public static void operativa_cuenta(float cantidad) {
